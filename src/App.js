@@ -19,6 +19,7 @@ function App() {
         <Route path="/rocketqueen" element={<GamePageRocketQueen />} />
         <Route path="/luckyjet" element={<GamePageLuckyJet />} />
         <Route path="/game3" element={<GamePageJetX />} />
+        <Route path="*" element={<MainPage />} />
       </Routes>
     </Router>
   );
