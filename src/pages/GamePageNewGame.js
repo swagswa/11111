@@ -25,7 +25,7 @@ const GamePageNewGame = () => {
     }
     
     positions.forEach((pos, index) => {
-      const timer = setTimeout(() => {
+      setTimeout(() => {
         setStars(prevStars => {
           const newStars = [...prevStars];
           newStars[pos] = true;

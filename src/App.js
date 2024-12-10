@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainPage from './pages/MainPage';
 import GamePageLuckyJet from './pages/GamePageLuckyJet';
 import GamePageSpaceX from './pages/GamePageSpaceX';
-import GamePageJetX from './pages/GamePageJetX';
 import GamePageMatrix from './pages/GamePageMatrix';
 import GamePageRocketQueen from './pages/GamePageRocketQueen';
 import GamePageNewGame from './pages/GamePageNewGame';
